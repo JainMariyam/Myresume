@@ -1,0 +1,80 @@
+
+.parent{
+    width: 80%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.child{
+    border: 4px solid black;
+    background-color:white;
+}
+.image{
+    position: relative;
+}
+.name{
+    position: absolute;
+    top: 80%;
+    right: 45%;
+    color: white;
+}
+.name{
+    position: absolute;   
+}
+.parent .child:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.parent .child:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.parent .child:nth-child(3){
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+ .image img{
+    width: 100%;
+    height: 300px;
+}
+.details ul{
+    list-style: none;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.details i{
+    color:darkgreen;
+}
+.project i{
+    color: darkgreen;
+    margin-top: 10px;
+}
+.skills i{
+    color: darkgreen;
+    margin-top: 10px;
+}
+.Key i{
+   color: darkgreen; 
+   margin-top: 10px;
+}
+.heading1 i{
+    color: darkgreen;
+    margin-top: 10px;
+}
+.heading3 i{
+    color: darkgreen;
+    margin-top: 10px;
+}
+.heading2 i{
+    color: darkgreen;
+    margin-top: 10px;
+}
+.heading4 i{
+    color: darkgreen;
+    margin-top: 10px
+}
